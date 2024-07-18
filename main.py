@@ -4,7 +4,7 @@ import time
 import pymysql
 from bs4 import BeautifulSoup
 # def job():
-conn = pymysql.connect(host='127.0.0.1', user='kopsert', password='5322423k', db='gecko', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='kops***', password='********', db='gecko', charset='utf8')
 curs = conn.cursor()
 for j in range(4, 9):
     url = 'https://www.coingecko.com/en?page='+str(j)
